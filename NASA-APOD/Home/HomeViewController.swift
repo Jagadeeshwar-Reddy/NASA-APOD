@@ -64,9 +64,10 @@ final class HomeViewController: UITableViewController {
 		
 		alertVC.view.addSubview(apodDatePicker)
 		apodDatePicker.date = currentDate
-		
-		let height = NSLayoutConstraint(item: alertVC.view, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: apodDatePicker.frame.height + (isiPad ? 80 : 150))
-		NSLayoutConstraint.activate([height])
+		if let alertView = alertVC.view {
+			let height = NSLayoutConstraint(item: alertView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: apodDatePicker.frame.height + (isiPad ? 80 : 150))
+			NSLayoutConstraint.activate([height])
+		}
 		
 		if !isiPad {
 			apodDatePicker.center = CGPoint(x: view.center.x - 10, y: apodDatePicker.center.y)
