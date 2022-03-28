@@ -1,0 +1,46 @@
+PODS:
+  - AcknowList (2.1.0)
+  - Alamofire (5.5.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Kingfisher (7.2.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SimpleImageViewer (1.1.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.47.0)
+
+DEPENDENCIES:
+  - AcknowList
+  - DZNEmptyDataSet
+  - Kingfisher
+  - Moya
+  - SimpleImageViewer
+  - SVProgressHUD
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - AcknowList
+    - Alamofire
+    - DZNEmptyDataSet
+    - Kingfisher
+    - Moya
+    - SimpleImageViewer
+    - SVProgressHUD
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  AcknowList: bb4f8090d41d1d59302c8159fa31b17b442a4749
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SimpleImageViewer: 34c3a2cde2d9ac022146772cefc27fca14b0c8b1
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: d41cc46a2ae58ac6d9f26954bc89f1d72e71fdef
+
+PODFILE CHECKSUM: 67925a1b60f78276ed7c5f6401f98c47ee96c672
+
+COCOAPODS: 1.11.2
